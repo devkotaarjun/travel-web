@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+body{
+    background-image: url(ygirl.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    
+    }
+    
+
+#coffee{
+    width: 148px;
+    height: 148x;
+    position: absolute;
+    margin-left: 850px;
+    /* margin-top: 500px; */
+   }
+
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#headerflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-right: 10px;
+}
+
+nav ul li:last-child{
+    margin-left: 50px;
+}
+
+/* nextcss */
+#booking{
+    margin-top: 170px;
+    margin-left: 140px;
+    padding-bottom: 400px;
+
+
+}
+
+#blackb{
+    text-align: center;
+    background-color: black;
+    width: 130px;
+    height: 30px;
+    border-top-right-radius: 150px;
+    padding: 5px 0px;
+
+}
+
+#whiteb{
+    background-color: #EAE9EA;
+    padding: 20px;
+    width: 800px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+
+
+}
+
+#destination{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+#date{
+    display: flex;
+ justify-content: space-between;
+}
+
+#guest{
+    display: flex;
+ justify-content: space-between;
+}
+.xxx{
+    margin-left: 10px;
+}
+
+#search{
+    background-color: #884AFF;
+    width: 50px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#innor{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+
+
+/* we parant start */
+
+#weparent{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+
+}
+
+.wechild{
+    width: 100%;
+
+}
+.headingtwo{
+    text-align: center;
+    padding-bottom: 90px;
+    font-size: 40px;
+}
+
+/* next Part Start */
+
+#wonders{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.arch{
+    width:50%;
+    font-family: sans-serif;
+    padding:50px 20px;
+}
+
+/* phbgstart */
+
+#phbg{
+    max-width: 100%;
+    background: url(phbg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    align-content: center;
+    padding-top: 60px;
+    padding-bottom: 250px;
+}
+
+#phbg h2{
+    text-align: center;
+}
+
+
+
+/* next start */
+.footer-body{
+    background-color: #333333;
+}
+
+#footer{
+    padding-bottom: 20px;
+}
+
+#fotop{
+
+    display: flex;
+    padding-top: 20px;
+
+}
+
+#airleft{
+    width: 30%;
+    padding-left: 40px;
+}
+
+#iconnav{
+    padding-top: 30px;
+}
+
+#iconnav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start
+}
+
+#iconnav li{
+    padding-left: 10px;
+}
+
+#airright{
+    width: 70%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+
+}
+
+
+.rightchild{
+    width: 25%;
+}
+
+
+.rightchild h2{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+
+#botomnav ul{
+    list-style-type: none;
+
+}
+
+#botomnav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+   }
+
+#botomnav ul li a:hover{
+    color: blue;
+}
+
+
+
+#fobottom{
+    background-color: #EAEAEA;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#designedby{
+    padding-left: 60px;
+}
+
+#designednav{
+    padding-right: 80px;
+
+}
+
+#designednav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+#designednav li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+}
+
+#designednav li a:hover{
+    color: blue;
+}
+
+
+@media (max-width: 576px){
+    #whiteb{
+        padding: 10px;
+        width: 200px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    
+    
+    }
+
+
+   
+     
+}
+    
+ @media (min-width: 577px) and (max-width: 1199px){
+    #whiteb{
+        padding: 15px;
+        width: 400px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    
+    
+    }
+}
